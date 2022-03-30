@@ -26,16 +26,6 @@ export default {
     image: String,
     text: String,
   },
-  data() {
-    return {
-      currentElement: 0,
-    };
-  },
-  computed: {
-    currentElementIndex() {
-      return this.cards[this.currentElementIndex];
-    },
-  },
 };
 </script>
 
