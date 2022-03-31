@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full"
+    class="w-auto"
   >
     <img
       class="w-auto"

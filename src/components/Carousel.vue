@@ -10,7 +10,7 @@
       ></Card>
 
       <div
-        class="rounded-full bg-white shadow-lg top-47% md:top-71% lg:left-60% 3xl:top-84% 3xl:left-60% 4xl:left-65% absolute"
+        class="rounded-full bg-white shadow-lg top-49% md:top-67% lg:left-60% 3xl:top-84% 3xl:left-60% 4xl:left-65% absolute"
       >
         <ArrowButton
           iconType="icon-prev"

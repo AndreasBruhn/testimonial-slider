@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between h-screen p-2">
+  <div class="flex flex-col justify-between h-screen">
     <Carousel :cards="cards"></Carousel>
   <SvgContainer svgType="pattern-curve"></SvgContainer>
   </div>
