@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <div class="card-carousel flex flex-col items-center">
+  <div class="flex flex-1 items-center">
+    <div class="card-carousel flex flex-col items-center relative">
       <Card
         class="current-element"
         :name="currentElement.name"
@@ -9,18 +9,18 @@
         :image="currentElement.image"
       ></Card>
 
-      <div class="w-1/5 bg-black">
-        <input
-          type="image"
-          src="/assets/images/icon-prev.svg"
-          @click="showPrevElement"
-          class="h-{90px} border-none bg-transparent cursor-pointer opacity-50"
+      <div
+        class="rounded-full bg-white shadow-lg top-47% md:top-71% lg:left-60% 3xl:top-84% 3xl:left-60% 4xl:left-65% absolute"
+      >
+        <ArrowButton
+          iconType="icon-prev"
+          :onClick="showPrevElement"
+          :disabled="this.reachedMaxLeft"
         />
-        <input
-          type="image"
-          src="/assets/images/icon-next.svg"
-          @click="showNextElement"
-          class="h-{90px} border-none bg-transparent cursor-pointer opacity-50"
+        <ArrowButton
+          iconType="icon-next"
+          :onClick="showNextElement"
+          :disabled="this.reachedMaxRight"
         />
       </div>
     </div>
@@ -29,10 +29,11 @@
 
 <script>
 import Card from "./Card.vue";
+import ArrowButton from "./ArrowButton.vue";
 
 export default {
   name: "Carousel",
-  components: { Card },
+  components: { Card, ArrowButton },
   props: { cards: Array },
 
   data() {

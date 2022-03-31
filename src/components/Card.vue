@@ -1,18 +1,20 @@
 <template>
   <div
-    class="card flex flex-col items-center justify-center w-72 h-{420px} rounded-md shadow-lg p-2"
+    class="card flex flex-col lg:flex-row items-center justify-center rounded-md p-2 text-center"
   >
-    <div class="">
+    <div class="bg-pattern p-9 lg:p-20 lg:order-last">
       <img
-        class="card-icon"
+        class="card-icon shadow-custom-shadow "
         alt="card icon"
         :src="require(`@/assets/images/${image}`)"
       />
     </div>
-    <div class="card-content">
-      <p class="py-4 dark-blue">{{ text }}</p>
-      <h4 class="font-bold dark-blue">{{ name }}</h4>
-      <h6 class="grayish-blue">{{ title }}</h6>
+    <div class="card-content mt-12 lg:text-left lg:text-3xl lg:pl-16 lg:w-2/4">
+      <p class="px-1 py-4 text-center lg:text-left dark-blue font-light relative z-50 lg:w-125%">{{ text }}</p>
+      <footer class="lg:flex lg:pt-4">
+      <h4 class="font-bold dark-blue px-2 lg:text-2xl">{{ name }}</h4>
+      <h6 class="grayish-blue px-2 lg:text-2xl">{{ title }}</h6>
+      </footer>
     </div>
   </div>
 </template>

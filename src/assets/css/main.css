@@ -15,9 +15,9 @@
 	color: hsl(240, 38%, 20%);
 }
 
-.card-bg {
+.bg-pattern {
 	background-image: url(../images/pattern-bg.svg);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-position: center;
+	background-size: contain;
 }
