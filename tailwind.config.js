@@ -26,6 +26,9 @@ module.exports = {
 			boxShadow: {
 				'custom-shadow': '0px 50px 30px -22px rgba(32, 32, 70,.5)'
 			},
+			zIndex: {
+				'-10': '-10',
+			},
 		},
 	},
 	plugins: [],
