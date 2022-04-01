@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-between h-screen">
     <Carousel :cards="cards"></Carousel>
-  <SvgContainer class="absolute bottom-0" svgType="pattern-curve"></SvgContainer>
+  <SvgContainer class="absolute bottom-0 -z-10" svgType="pattern-curve"></SvgContainer>
   </div>
 </template>
 
