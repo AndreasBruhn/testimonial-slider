@@ -30,10 +30,10 @@ export default {
           image: "image-john.jpg",
         },
         {
-          name: "Bente",
+          name: "Ian Dooley",
           title: "Junior SEO Specialist",
           text: "“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer.“",
-          image: "image-tanya.jpg",
+          image: "image-ian.jpg",
         },
       ],
     };
