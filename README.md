@@ -73,3 +73,4 @@ Next step in this project is to add some JS functionality so the user can change
 
 - Website - [Andreas Bruhn](https://www.andreasbc.dk/)
 - Frontend Mentor - [@AndreasBruhn](https://www.frontendmentor.io/profile/AndreasBruhn)
+- LinkedIn - [@Andreas Bruhn Christensen](https://www.linkedin.com/in/andreas-bruhn-christensen-397270132/)
