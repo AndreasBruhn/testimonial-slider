@@ -57,13 +57,11 @@ export default {
       // if (this.reachedMaxRight) return;
       this.currentElementIndex++;
       console.log(this.currentElementIndex);
-      console.log("hello");
     },
     showPrevElement() {
       // if (this.reachedMaxLeft) return;
       this.currentElementIndex--;
       console.log(this.currentElementIndex);
-      console.log("bye");
     },
   },
 };
