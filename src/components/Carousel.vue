@@ -54,12 +54,10 @@ export default {
   },
   methods: {
     showNextElement() {
-      // if (this.reachedMaxRight) return;
       this.currentElementIndex++;
       console.log(this.currentElementIndex);
     },
     showPrevElement() {
-      // if (this.reachedMaxLeft) return;
       this.currentElementIndex--;
       console.log(this.currentElementIndex);
     },
